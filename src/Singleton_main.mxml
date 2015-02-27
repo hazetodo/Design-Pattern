@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication 
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:s="library://ns.adobe.com/flex/spark" 
+	xmlns:mx="library://ns.adobe.com/flex/mx"
+	creationComplete="initComp(event)">
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			
+			import singleton_pattern.Singleton;
+			
+			protected function initComp(event:FlexEvent):void{
+				for(var i:int = 0 ; i < 3; i++){
+					var singleton:Singleton = Singleton.getSingleton();
+					// singleton.doSomething();
+					// Singleton.exeSomething();
+					
+					if(1==i){
+						singleton.exampleProperty = "test";
+					}
+					trace(i+": "+singleton.exampleProperty);
+				}
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+</s:WindowedApplication>

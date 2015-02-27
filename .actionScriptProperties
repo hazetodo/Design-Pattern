@@ -17,6 +17,9 @@
     <application path="Design_Pattern.mxml">
       <airExcludes/>
     </application>
+    <application path="Singleton_main.mxml">
+      <airExcludes/>
+    </application>
   </applications>
   <modules/>
   <buildCSSFiles/>
