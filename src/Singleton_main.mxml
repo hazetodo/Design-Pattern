@@ -20,6 +20,7 @@
 						singleton.exampleProperty = "test";
 					}
 					trace(i+": "+singleton.exampleProperty);
+					trace("for test");
 				}
 			}
 			
