@@ -12,7 +12,7 @@ package singleton_pattern
 		}
 		
 		// # 透過方法來取得 實體物件
-		public static function getSingleton():Singleton{
+		public static function getInstance():Singleton{
 			return singleton;
 		}
 		

@@ -12,7 +12,7 @@
 			
 			protected function initComp(event:FlexEvent):void{
 				for(var i:int = 0 ; i < 3; i++){
-					var singleton:Singleton = Singleton.getSingleton();
+					var singleton:Singleton = Singleton.getInstance();
 					// singleton.doSomething();
 					// Singleton.exeSomething();
 					
@@ -20,7 +20,6 @@
 						singleton.exampleProperty = "test";
 					}
 					trace(i+": "+singleton.exampleProperty);
-					trace("for test");
 				}
 			}
 			
