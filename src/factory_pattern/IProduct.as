@@ -2,6 +2,6 @@ package factory_pattern
 {
 	public interface IProduct
 	{
-		function manipulate( ):void;
+		function manipulate():void;
 	}
 }
