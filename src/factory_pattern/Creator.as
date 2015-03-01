@@ -1,4 +1,3 @@
-/*
 package factory_pattern
 {
 	import flash.errors.IllegalOperationError;
@@ -19,4 +18,3 @@ package factory_pattern
 		}
 	}
 }
-*/
