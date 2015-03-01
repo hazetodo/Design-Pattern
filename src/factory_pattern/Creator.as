@@ -10,7 +10,7 @@ package factory_pattern
 			var product:IProduct = this.factoryMethod();
 			product.manipulate();
 		}
-		// 抽象方法，等著子類來實作它
+		// # 抽象方法，等著子類別來實作它
 		protected function factoryMethod( ):IProduct
 		{
 			throw new IllegalOperationError("Abstract method: must be overridden in a subclass");

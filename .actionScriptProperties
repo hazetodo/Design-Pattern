@@ -20,6 +20,9 @@
     <application path="Singleton_main.mxml">
       <airExcludes/>
     </application>
+    <application path="Factory_main.mxml">
+      <airExcludes/>
+    </application>
   </applications>
   <modules/>
   <buildCSSFiles/>
